@@ -31,7 +31,7 @@ int main(void)
 		if (a < 700)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 
 		}
 		}
