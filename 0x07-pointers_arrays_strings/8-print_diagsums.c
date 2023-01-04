@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - print the number of two
  * diagsonals of a square matrix of integers
