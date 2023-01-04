@@ -7,9 +7,9 @@
  * @size: size of the matrix.
  * Return: no return.
  */
-voidprint_diagsum(int *a, int size)
+void print_diagsum(int *a, int size)
 {
-	inti, sum1 = 0, sum2 = 0;
+	int i, sum1 = 0, sum2 = 0;
 
 	for (i = 0; i < (size * size); i++)
 	{
