@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _puts_recursion - the function that calls itself.
- * _putchar-recursion - this is a function to print string recursively
- * @s: string parameter
+ * _putchar-recursion - this is a function that prints the string recursively.
+ * _puts_recursion -  prints a string recursively
+ * @s: string parameter.
+ * Return: no return.
+ *
  */
 void _puts_recursion(char *s)
 {
@@ -13,5 +15,5 @@ void _puts_recursion(char *s)
 		_puts_recursion(s + 1);
 	}
 	else
-		_putchar('\n');
+		_putchar('\0');
 }
